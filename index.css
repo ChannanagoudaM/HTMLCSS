@@ -1,0 +1,1553 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.a
+{
+    padding: 0;
+    margin: 0;
+    height:100vh;
+    width: 100vw;
+    background-image: url(stanford.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.b
+{
+    background-image: linear-gradient(rgba(13, 12, 12, 0.891),black,rgba(28, 27, 27, 0.635));
+}
+.c1
+{
+    margin: 0%;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.c,.d
+{
+    display: flex;
+    display: inline-block;
+}
+.d
+{
+    position:relative;
+    left: 300px;
+    background-image: linear-gradient(top to bottom,rgba(104, 98, 98, 0.282),rgba(68, 66, 66, 0.105));
+}
+.d h3
+{
+    display: flex;
+    display: inline-block;
+   margin: 10px;
+   color: whitesmoke;
+}
+.d h3:hover
+{
+text-decoration: overline 3px solid white;
+transition-duration: overline 2s;
+}
+.d input
+{
+    height: 20px;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+:placeholder-shown
+{
+    color: antiquewhite;
+}
+.e
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,rgba(40, 40, 40, 0.568),rgba(53, 52, 52, 0.767),transparent);
+}
+.e h2
+{
+    margin: 10px;
+    color: white;
+    font-style: normal;
+}
+.e h2:hover
+{
+text-decoration: underline 3px solid;
+}
+.f
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+.f p
+{
+    font-size: 120px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+.g
+{
+    height: 69px;
+    width:100vw;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+   background-attachment: fixed;
+}
+.g h2
+{
+    color: white;
+    background-attachment: fixed;
+}
+.z
+{
+    height: 500px;
+    width: 100vw;
+    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.a1
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.a1 h1
+{
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: 900;
+}
+.a1 p
+{
+
+    font-size: xx-large;
+    font-weight: 200;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: -25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+.p1
+{
+    margin-bottom:-25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+.p2
+{
+    margin-bottom:-25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+.p3
+{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b1
+{
+    height: 50px;
+    width: 450px;
+    margin-bottom: 50px;
+    font-size: x-large;
+    color:white;
+    background-color:red;
+    border: none;
+}
+.b1:hover
+{
+background-color:darkred;
+transition: 1s;
+}
+.x
+{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 100vw;
+    background-color: rgba(200, 196, 196, 0.146);
+}
+.x1
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 50px;
+    position: relative;
+    top: 40px;
+}
+.x2
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position:relative;
+}
+.y
+{
+    height: 440px;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.y1,.y2,.y3
+{
+    display: flex;
+    display: inline-block;
+}
+.y1
+{
+    margin: 20px;
+    height: 380px;
+    width: 600px;
+    background-image: url(Stanford1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin: top 20px;
+}
+/* .y1:hover
+{
+    height:390px ;
+    width:610px ;
+    transition: 1s;
+} */
+.y1 h1
+{
+    position:relative;
+    top: 250px;
+    left: 20px;
+    color: white;
+
+}
+.y1 p
+{
+    position:relative;
+    top: 250px;
+    font-size: x-large;
+    font-weight: bolder;
+    left: 20px;
+    line-height: 2px;
+    color: white;
+}
+.y2
+{
+    height: 350px;
+    width: 300px;
+    background-image: url(Stanford2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin-left: 10px;
+    border: 2px transparent;
+}
+/* .y2:hover
+{
+    height:360px ;
+    width:310px ;
+    transition: 1s;
+} */
+.y3
+{
+    height: 350px;
+    width: 300px;
+    background-image: url(Stanford3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin-left: 20px;
+}
+/* .y3:hover
+{
+    height:360px ;
+    width:310px ;
+    transition: 1s;
+} */
+.blo
+{
+    height: 120px;
+    width:300px ;
+    background-color:white;
+    position:relative;
+    top: 250px;
+    border: 2px solid transparent;
+    box-shadow: 5px 5px 10px 1px #000;
+}
+.blo  h2
+{
+    color: red;
+    margin: 20px;
+}
+.blo p
+{
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 10px;
+    margin: 20px;
+}
+.bl 
+{
+    height: 120px;
+    width:300px ;
+    background-color:white;
+    position:relative;
+    top: 250px;
+    border: 2px solid transparent;
+    box-shadow: 5px 5px 10px 1px #000;
+}
+.bl h2
+{
+    color: red;
+    margin: 20px;
+}
+.bl p
+{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.j
+{
+    height: 450px;
+    width: 100vw;
+}
+.j1,.j2,.j3
+{
+    display: flex;
+    display: inline-block;
+}
+.j1
+{
+    height: 350px;
+    width: 300px;
+    background-image: url(Stanford4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin-left: 20px;
+}
+.j2
+{
+    height: 350px;
+    width: 300px;
+    background-image: url(stanford5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin-left: 20px;
+}
+.j3{
+    margin: 20px;
+    height: 380px;
+    width: 600px;
+    background-image: url(standford6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    margin: top 20px;  
+}
+.j3 h1
+{
+    position:relative;
+    top: 250px;
+    left: 20px;
+    color: white;
+
+}
+.j3 p
+{
+    position:relative;
+    top: 250px;
+    font-size: x-large;
+    font-weight: bolder;
+    left: 20px;
+    line-height: 2px;
+    color: white;
+}
+.h
+{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.bh
+{
+    height:50px;
+    width: 400px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 5px 5px 10px 1px #000;
+    margin-bottom: 200px;
+}
+.bh:hover
+{
+    background-color: darkred;
+    transition: 2s;
+}
+.xy
+{
+    background-color: rgba(200, 196, 196, 0.146);
+}
+.m
+{
+    height: 310px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.m1
+{
+    height: 300px;
+    width: 400px;
+    background-image: url(standford7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    margin-right: 10px;
+}
+.m1 h2
+{
+    position: relative;
+    top:180px;
+    left: 10px;
+}
+.m1 p
+{
+  line-height: 5px;
+    position:relative;
+    top: 180px;
+    left: 10px;
+    font-size:large;
+    color: white;
+}
+.m2
+{
+    height: 300px;
+    width: 400px;
+    background-image: url(stanford8.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.m3
+{
+    height: 300px;
+    width: 400px;
+    background-image: url(stanford9.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.m12,.m13,.m14
+{
+    display: flex;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 90px;
+}
+.m13
+{
+    margin-left:35px;
+}
+.m14{
+    margin-left: 80px;
+}
+.m12  p
+{
+line-height: 8px;
+font-size: large;
+}
+.m13  p
+{
+line-height: 8px;
+font-size: large;
+}
+.m14  p
+{
+line-height: 8px;
+font-size: large;
+}
+.un
+{
+    color:blue;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.gr
+{
+    color:blue;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.dr
+{
+    color:blue;
+    margin-top: 10px;
+    font-weight: bolder;
+    
+}
+.mn
+{
+    height:250px;
+    width: 100vw;
+}
+.mno
+{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60px;
+}
+.mnop
+{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100px;
+}
+.mnop p
+{
+    margin: 10px;
+    font-size: larger;
+    color: blue;
+}
+.oq
+{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+
+}
+.oq button
+{
+    height: 45px;
+    width: 400px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: larger;
+}
+.oq button:hover
+{
+    background-color: darkred;
+    transition: 2s;
+}
+.uv
+{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.uv1
+{
+    background-image: url(standford10.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.uvw
+{
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+.uvw1
+{
+    margin-left: 25%;
+    height: 310px;
+    width:100vw;
+    line-height:10px;
+    font-size: xx-large;
+}
+.upara
+{
+    font-size: xx-large;
+font-weight: bold;
+line-height: 0px;
+}
+.uvwx
+{
+   width: 100vw;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* align-items: center; */
+}
+.uvwx1
+{
+    padding: 0;
+    margin: 0;
+    width: 700px;
+    height:100px;
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* align-items: center; */
+   background-color: rgb(255, 255, 255); 
+}
+.uvwx1 h2
+{
+    font-weight: bolder;
+    color: black;
+    line-height: 0;
+}
+.uvwx1 h3
+{
+    font-weight: bolder;
+    color: black;
+    line-height: 0;
+}
+.ab
+{
+    padding: 0;
+    margin: 0;
+    height:80px;
+    width: 100vw;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ab1
+{
+    padding: 0;
+    margin-top: 30px;
+    height:100px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.ab3
+{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ab31,.ab32,.ab33
+{
+height: 100px;
+width: 350px;
+margin:0px 40px;
+}
+.ab31
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ab31 h1
+{
+    line-height: 0%;
+    font-weight: bolder;
+}
+.ab31 p
+{
+    line-height: 0%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.ab32 h1
+{
+    line-height: 0%;
+    font-weight: bolder;
+}
+.ab32 p
+{
+    line-height: 0%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.ab32
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ab33
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ab33 h1
+{
+    line-height: 0%;
+    font-weight: bolder;
+}
+.ab33 p
+{
+    line-height: 0%;
+    font-size: larger;
+    font-weight: bolder;
+}
+.ab5
+{
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.ab5 button
+{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    font-size: x-large;
+    color: whitesmoke;
+    border: none;
+}
+.ab5 button:hover
+{
+background-color: darkred;
+transition: 2s;
+}
+.ab6
+{
+    height: 300px;
+    width: 100vw;
+    background-color: rgba(248, 245, 245, 0.932);
+}
+.ab61
+{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.ab61 p
+{
+    font-size:40px;
+    font-weight:bolder;
+}
+.ab62
+{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ab62 button
+{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    font-size: x-large;
+    color: whitesmoke;
+    border: none;
+}
+.ab62 button:hover
+{
+    background-color: darkred;
+    transition: 2s;
+}
+.ab7
+{
+    height: 200px;
+    width: 100vw;
+}
+.ab71
+{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ab71 p
+{
+    font-size:50px;
+    font-weight: bolder;
+}
+.ab72
+{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ab72 p{
+    font-size: 30px;
+    font-weight:500;
+}
+.ab8
+{
+    height: 310px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ab81
+{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    background-image: url(standford11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ab82
+{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    background-image: url(starndford12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ab83
+{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    background-image: url(standford13.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ab9
+{
+    height: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.ab91
+{
+position: relative;
+left: 35px;
+line-height: 7px;
+}
+.ab92
+{
+position: relative;
+left: 55px;
+line-height: 7px;
+}
+.ab93
+{
+margin-right:100px;
+position: relative;
+left: 100px;
+line-height: 7px;
+}
+.ab91 h1
+{
+    margin: 30px 0px ;
+}
+.ab92 h1
+{
+    margin: 30px 0px ;
+}
+.ab93 h1
+{
+    margin: 30px 0px ;
+}
+.ac1
+{
+    height:200px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ac1 button
+{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    font-size: larger;
+    font-weight: bolder;
+    color: whitesmoke;
+    border: none;
+}
+.ac1 button:hover
+{
+    background-color: darkred;
+    transition: 2s;
+}
+.ac2
+{
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.ac21
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(standford14.jpg);
+    border-radius: 50%;
+}
+.ac3
+{
+    height: 140px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.az
+{
+    background-image: url(standford17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.az:hover
+{
+    filter: blur(1px);
+
+}
+.ac3 p
+{
+font-size: xx-large;
+line-height: 10px;
+}
+.apara
+{
+    margin-left: 50px;
+}
+.ac4
+{
+    height:180px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+}
+.ac41
+{
+    line-height: 10px;
+}
+.meet
+{
+    font-size: larger;
+    margin-left: 300px;
+    font-weight: bolder;
+}
+.aero
+{
+    font-size: large;
+    margin-left: 300px;
+    font-weight: bold;
+}
+.more
+{
+    font-weight: bolder;
+    font-size: larger;
+    color: blue;
+    margin-left:400px;
+}
+.fp
+{
+    position:sticky;
+}
+.ad
+{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    
+}
+.ad p
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.ae
+{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+.ae  p
+{
+font-size: 30px;
+}
+.ai
+{
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+.ai p
+{
+    font-size: 30px;
+}
+.aj
+{
+    height: 400px;
+    width: 100vw;
+
+}
+.aj1
+{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.aj11
+{
+    background-image: url(standford15.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.aj12
+{
+    background-image: url(standford16.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.aj13
+{
+    background-image: url(standford17.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.aj2
+{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aj21
+{
+    height: 150px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.aj22
+{
+    height: 150px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.aj23
+{
+    height: 150px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px;
+}
+.aj21
+{
+    font-size: large;
+    line-height: 10px;
+}
+.aj21 h3
+{
+    color: blue;
+}
+.ak1
+{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.ak11
+{
+    background-image: url(stanford16.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.ak12
+{
+    background-image: url(stanford17.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.ak13
+{
+    background-image: url(stanford18.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.add
+{
+    background-color: rgba(186, 184, 184, 0.45);
+}
+.al
+{
+    padding: 0;
+    margin: 0;
+}
+.al1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 100vw;
+}
+.al1 p
+{
+    font-size:50px;
+    font-weight:bolder;
+}
+.al2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height:20px;
+    width: 100vw;
+}
+.al2 p
+{
+    font-size: xx-large;
+}
+.al3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 140px;
+    width: 100vw;
+}
+.al3 p
+{
+    font-size: xx-large;
+}
+.am
+{
+    height: 800px;
+    width: 100vw;
+    background-image: url(stanford19.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.an
+{
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.an1
+{
+height: 100px;
+width: 700px;
+margin: 10px;
+}
+.an2
+{
+    height: 100px;
+    width: 700px;
+    margin: 10px;
+}
+.an11
+{
+    line-height: 7px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.an12
+{
+    line-height: 7px;
+    font-size: large;
+}
+.ao
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100vw;
+}
+.ao button
+{
+height: 50px;
+width: 400px;
+background-color: red;
+font-size: x-large;
+font-weight: bolder;
+color: white;
+border: none;
+}
+.ap
+{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 100vw;
+    background-image: url(stanford11.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aq
+{
+    height: 70px;
+    width: 100vw;
+    background-color: rgba(212, 209, 209, 0.848);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aq1
+{
+    margin-left: 900px;
+}
+.aq1 i
+{
+    margin: 10px;
+}
+.fa-square-facebook:hover
+{
+color: blue;
+}
+.fa-twitter:hover
+{
+color: blue;
+}
+.fa-square-instagram:hover
+{
+color: red;
+}
+.fa-info:hover
+{
+    color: blue;
+}
+.fa-youtube:hover
+{
+    color: red;
+}
+.fa-apple:hover
+{
+    color: whitesmoke;
+}
+.ar
+{
+    padding: 0;
+    margin: 0;
+    height: 390px;
+    width: 100vw;
+    display: flex;
+}
+.ar1
+{
+    margin: 20px;
+}
+.ar1 li
+{
+    list-style: none;
+    line-height: 30px;
+    color: grey;
+}
+.ar1 li:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.ar1 h2
+{
+    color: darkred;
+    line-height: 7px;
+}
+.ar2
+{
+    margin: 20px;
+}
+.ar2 li
+{
+    list-style: none;
+    line-height: 30px;
+    color: grey;
+}
+.ar2 li:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.ar2 h2
+{
+    color: darkred;
+    line-height: 7px;
+}
+.ar3
+{
+    margin: 20px;
+}
+.ar3 li
+{
+    list-style: none;
+    line-height: 30px;
+    color: grey;
+}
+.ar3 li:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.ar3 h2
+{
+    color: darkred;
+    line-height: 7px;
+}
+.ar4
+{
+    margin: 20px;
+}
+.ar4 li
+{
+    list-style: none;
+    line-height: 30px;
+    color: grey;
+}
+.ar4 li:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.ar4 h2
+{
+    color: darkred;
+    line-height: 7px;
+}
+.ar5
+{
+    margin: 20px;
+}
+.ar5 li
+{
+    list-style: none;
+    line-height: 30px;
+    color: grey;
+}
+.ar5 li:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.ar5 h2
+{
+    color:darkred;
+    line-height: 7px;
+}
+.ar6
+{
+    margin: 20px;
+}
+.ar6 li
+{
+    list-style: none;
+    line-height: 50px;
+    border: 2px solid grey;
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+.ar6 li:hover
+{
+    border: 2px solid red;
+    color: red;
+}
+.as
+{
+    height: 100px;
+    width: 100vw;
+    background-color: darkred;
+    display: flex;
+}
+.as1
+{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: white;
+}
+.as11,.as12
+{
+    line-height: 25px;
+}
+.as11
+{
+    font-size: xx-large;
+   position: relative;
+   bottom: 50px;
+}
+.as12
+{
+    font-size: large;
+}
+.as2
+{
+    height: 50px;
+    width: 700px;
+    display: flex;
+}
+.as2 p
+{
+    font-size: large;
+    margin: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.as2 p:hover
+{
+text-decoration: underline;
+}
+.as3
+{
+    width: 650px;
+    display: flex;
+    height: 50px;
+    position:relative;
+    right: 600px;
+    top:30px;
+}
+.as3 p
+{
+    margin:20px 5px;
+    color: whitesmoke;
+}
+.as3 p:hover
+{
+text-decoration: underline;
+}
